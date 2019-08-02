@@ -1,13 +1,14 @@
 # Singularity RStudio Server
 
-[![Build Status](https://travis-ci.org/nickjer/singularity-rstudio.svg?branch=master)](https://travis-ci.org/nickjer/singularity-rstudio)
+[![Build Status](https://travis-ci.org/rsettlag/singularity-rstudio.svg?branch=master)](https://travis-ci.org/rsettlag/singularity-rstudio)
 [![Singularity Hub](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/463)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Singularity image for [RStudio Server]. It was built on top of the base
-Singularity image [nickjer/singularity-r].
+Singularity image for [RStudio Server] used in [Advanced Research Computing at Virginia Tech](https://www.arc.vt.edu).  This was forked from https://github.com/nickjer/singularity-r with the intent that pacakges/libraries/environment customizations more inline with our user base will be added.
 
-This is still a work in progress.
+This will always be a work in progress as versions and requirements change.  Note that released versions will be static as I will not look backwards at requirements, but new/altered requirements will be implemented as we version up in R.
+
+Finally, there will be built on all 3 base companion repos, [rsettlag/singularity-r], [rsettlag/singularity-bioR], and [rsettlag/singularity-geoR] all representing layers important to specific user communities at VT.  
 
 ## Build
 
@@ -122,7 +123,7 @@ the host's path).
 
 ### R and Rscript
 
-See [nickjer/singularity-r] for more information on how to run `R` and
+See [rsettlag/singularity-r] for more information on how to run `R` and
 `Rscript` from within this Singularity image.
 
 ## Contributing
@@ -136,5 +137,5 @@ The code is available as open source under the terms of the [MIT License].
 
 
 [RStudio Server]: https://www.rstudio.com/products/rstudio/
-[nickjer/singularity-r]: https://github.com/nickjer/singularity-r
+[nickjer/singularity-r]: https://github.com/rsettlag/singularity-r
 [MIT License]: http://opensource.org/licenses/MIT
