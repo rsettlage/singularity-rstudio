@@ -129,7 +129,7 @@ See [rsettlag/singularity-r] for more information on how to run `R` and
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/nickjer/singularity-rstudio.
+https://github.com/rsettlag/singularity-rstudio.  Or you can pull from the original source at https://github.com/nickjer/singularity-rstudio
 
 ## License
 
