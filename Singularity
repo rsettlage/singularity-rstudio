@@ -1,8 +1,8 @@
 BootStrap: shub
-From: nickjer/singularity-r
+From: rsettlage/singularity-r
 
 %labels
-  Maintainer Jeremy Nicklas
+  Maintainer Robert Settlage
   RStudio_Version 1.2.1335
 
 %help
