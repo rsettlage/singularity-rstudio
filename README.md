@@ -1,3 +1,6 @@
+# Killing this mode of building/housing ARC Singularity Images. 
+It seems as though Singularity Hub has some pretty low limits on number of interactions per image such that it isn't going to scale to what we need.  Looking at options, we could a) stand up a Singularity Registry Server etc etc or b) convert to using DockerHub.  I am choosing (b).  
+
 # Singularity RStudio Server
 
 [![Build Status](https://travis-ci.org/rsettlag/singularity-rstudio.svg?branch=master)](https://travis-ci.org/rsettlag/singularity-rstudio)
