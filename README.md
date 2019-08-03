@@ -24,7 +24,7 @@ Instead of building it yourself you can download the pre-built image from
 [Singularity Hub](https://www.singularity-hub.org) with:
 
 ```sh
-singularity pull --name singularity-rstudio.simg shub://nickjer/singularity-rstudio
+singularity pull --name singularity-rstudio.simg shub://rsettlag/singularity-rstudio
 ```
 
 ## Run
@@ -129,7 +129,7 @@ See [rsettlag/singularity-r] for more information on how to run `R` and
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/rsettlag/singularity-rstudio.  Or you can pull from the original source at https://github.com/nickjer/singularity-rstudio
+https://github.com/rsettlag/singularity-rstudio.  Or you can pull from the original source at https://github.com/rsettlag/singularity-rstudio
 
 ## License
 
